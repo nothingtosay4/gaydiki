@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Общие правила для всех роботов
+Crawl-delay: 1
+Sitemap: https://sayt.ru/sitemap.xml
+
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /*.ppt$
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /*.ppt$
+Host: sayt.ru
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /*.ppt$
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+Disallow: /*.ppt$
+Host: sayt.ru
