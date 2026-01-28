@@ -1,0 +1,17 @@
+# Отключаем обработку Jekyll
+include:
+  - .nojekyll
+
+# Настраиваем перенаправления
+plugins:
+  - jekyll-redirect-from
+
+# Настройки для GitHub Pages
+theme: jekyll-theme-minimal
+
+# Base URL для правильных ссылок
+baseurl: ""
+url: "https://nothingtosay4.github.io"
+
+# Включить обработку HTML
+include: ['*.html', '*.md']
